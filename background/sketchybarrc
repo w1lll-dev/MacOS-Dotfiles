@@ -9,7 +9,7 @@ background --bar height=1026      \
 
 background --add item image center \
 	   --set image background.drawing=on \
-	   --set image background.image=$HOME/Downloads/monosamurai2.png \
+	   --set image background.image=$HOME/Downloads/wallpaper.png \
 
 
 background --update
