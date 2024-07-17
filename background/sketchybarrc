@@ -1,0 +1,15 @@
+#!/bin/bash
+# This is just a custom sketchybar which functions as a non-moving wallpaper when changing workspaces
+
+background --bar height=1026      \
+                 position=bottom  \
+                 sticky=on        \
+		             display=all      \
+		             hidden=off
+
+background --add item image center \
+	   --set image background.drawing=on \
+	   --set image background.image=$HOME/Downloads/monosamurai2.png \
+
+
+background --update
